@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+    <title>Project3</title>
+</head>
+<body>
+    <div class="big-boss">
+        <header class="navigation">
+            <img class="logotip" src="./images/Asset1@3x1.svg" alt="logotip">
+            <ul class="menu">
+                <li><a class="text-1" href="#">Банк</a></li>
+                <li><a class="text-2" href="#">Бизнес</a></li>
+                <li><a class="text-3" href="#">Инвестиции</a></li>
+                <li><a class="text-4" href="#">Страхование</a></li>
+                <li><a class="text-5" href="#">Мобайл</a></li>
+                <li><a class="text-6" href="#">Путешествия</a></li>
+                <li><a class="text-7" href="#">Развлечения</a></li>
+            </ul>
+            <button id="btn">Войти</button>
+        </header>
+        <main class="mains">
+            <h1>Конвертер валют онлайн</h1>
+            <div class="boss">
+                <div class="location1">
+                    <p>У меня есть</p>
+                    <div class="box-left">
+                        <button id = "btn-active-left-RUB" class ="buttons-left">RUB</button>
+                        <button id = "btn-active-left-USD" class ="buttons-left">USD</button>
+                        <button id = "btn-active-left-EUR" class ="buttons-left">EUR</button>
+                        <button id = "btn-active-left-GBP" class ="buttons-left">GBP</button>
+                        <select id="select-left" class = "select-value">
+                        </select>
+                    </div>
+                    <div>
+                        <input class = "left-input" type="number"  value="1" name="text" id="input-text">
+                        <p class="left-paragraph"></p>
+                    </div>
+                    
+                </div>
+                <img class="arrow-img" src="./images/Group5.svg" alt="стрелка">
+                <div class="location2">
+                    <p>Хочу приобрести</p>
+                    <div class="box-right">
+                        <button id = "btn-active-right-RUB" class ="buttons-right">RUB</button>
+                        <button id = "btn-active-right-USD" class ="buttons-right">USD</button>
+                        <button id = "btn-active-right-EUR" class ="buttons-right">EUR</button>
+                        <button id = "btn-active-right-GBP" class ="buttons-right">GBP</button>
+                        <select id="select-right" class = "select-value">
+                        </select>
+                    </div>
+                    <div>
+                        <input class="right-input" type="number" name="text" id="input-text">
+                        <p class="right-paragraph"></p>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+    <div class="overlay hidden">     
+        
+        <lottie-player class="lotti-player" src="https://assets1.lottiefiles.com/packages/lf20_bUdJXt.json"  background="transparent"  speed="1"    loop  autoplay></lottie-player>
+      </div>
+    <script src="./index.js"></script>
+</body>
+</html>

@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+body {
+    margin: 0;
+}
+.big-boss {
+    height: 100vh;
+}
+.navigation {
+    
+    display: flex;
+    justify-content: space-around;
+    background: #F5F5F6;
+}
+.logotip {
+    width: 89px;
+    height: 23px;
+    margin-top: 14px;
+    margin-left: 99px;
+}
+.menu {
+    display: flex;
+    width: 100%;
+    list-style: none;
+    text-decoration: none;
+    margin-right: 100px;
+}
+.menu a {
+    text-decoration: none;
+    text-transform: uppercase;
+    padding-top: 3px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 13px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.06em;
+    color: #959BA4;
+}
+.text-1 {
+    margin-left: 25px;
+}
+.text-2 {
+    padding-left: 25px;
+}
+.text-3 {
+    padding-left:  26px;
+}
+.text-4 {
+   padding-left:  24px;
+}
+.text-5 {
+    padding-left:  24px;
+}
+.text-6 {
+    padding-left:  24px;
+}
+.text-7 {
+    padding-left:  24px;
+}
+
+a:hover{
+    color:black;
+}
+
+#btn {
+    text-transform: uppercase;
+    width: 58px;
+    height: 33px;
+    margin-top: 9px;
+    background: #FFFFFF;
+    border-radius: 4px;
+    color: black;
+    margin-right: 218px;
+    font-size: 11px;
+    font-weight: bold;
+    border: none;
+}
+.mains {
+    margin: 0;
+}
+h1 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+    color: #000000;
+    margin-top: 58px;
+    margin-left: 253px;
+}
+.boss {
+    display: flex;
+    justify-content: space-between;
+}
+p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    align-items: center;
+    color: #9F9F9F;
+}
+.loc1,.loc2 {
+    display: flex;
+    border:0px;
+    
+}
+.location1 {
+    margin-left: 251px;
+    margin-top: -8px;
+    
+}
+.location2 {
+    margin-right: 370px;
+    margin-top: -7px;
+    font-size: 12px;
+}
+button {
+    width: 52px;
+    height: 30px;
+    font-size: 12px;
+    list-style: none; 
+    outline: none;
+    background-color: white;
+    color: #C6C6C6; 
+    border:0px; 
+}
+select {
+    width: 52px;
+    height: 30px;
+    font-size: 12px;
+    list-style: none;
+    outline: none;
+    background-color: white;
+    border: 1px solid #E5E5E5;
+    color: #C6C6C6;
+}
+#input-text {
+    width: 259px;
+    height: 102px;
+    margin-top: 20px;
+    border: 1px solid #E5E5E5;
+    box-sizing: border-box;
+    border-radius: 3px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+
+color: #000000;
+}
+.strelka {
+    margin-left: 4px;
+    margin-top: 73px;
+}
+
+.left-input,.right-input{
+    padding-bottom: 43px;
+    padding-left: 14px;
+}
+
+
+.left-p, .right-p {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    display: flex;
+    align-items: center;
+    color: #C6C6C6;
+    margin-top: -24px;
+    margin-left: 16px;
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    bottom: 33vw;
+    left: 0;
+    right: 16vw;
+    background-color: rgba(0, 0, 0, 0.44);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+.hidden {
+    display: none;
+  }  
+
+.activ {
+    background-color: #833AE0;
+    color: white;
+  }
+
+.lotti-player  {
+    width: 300px;
+    height: 300px;
+  }
