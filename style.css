@@ -105,7 +105,7 @@ p {
     align-items: center;
     color: #9F9F9F;
 }
-.loc1,.loc2 {
+.box-left,.box-right {
     display: flex;
     border:0px;
     
@@ -152,10 +152,9 @@ select {
     font-weight: bold;
     font-size: 36px;
     line-height: 42px;
-
-color: #000000;
+    color: #000000;
 }
-.strelka {
+.arrow-img {
     margin-left: 4px;
     margin-top: 73px;
 }
@@ -166,7 +165,7 @@ color: #000000;
 }
 
 
-.left-p, .right-p {
+.left-paragraph, .right-paragraph {
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
